@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572BB0AEFF120EFE7E8605F4 /* Pods_Cloudelio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17F894BF442AD1536974CCA /* Pods_Cloudelio.framework */; };
+		AC393B6125C69F2A003DE7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC393B6025C69F2A003DE7B2 /* AppDelegate.swift */; };
+		AC393B6325C69F2A003DE7B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC393B6225C69F2A003DE7B2 /* SceneDelegate.swift */; };
+		AC393B6525C69F2A003DE7B2 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC393B6425C69F2A003DE7B2 /* WeatherViewController.swift */; };
+		AC393B6825C69F2A003DE7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC393B6625C69F2A003DE7B2 /* Main.storyboard */; };
+		AC393B6A25C69F2D003DE7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC393B6925C69F2D003DE7B2 /* Assets.xcassets */; };
+		AC393B6D25C69F2D003DE7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC393B6B25C69F2D003DE7B2 /* LaunchScreen.storyboard */; };
+		AC393B7A25C6A781003DE7B2 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC393B7925C6A781003DE7B2 /* WeatherManager.swift */; };
+		AC393B7E25C6AEA8003DE7B2 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC393B7D25C6AEA8003DE7B2 /* WeatherModel.swift */; };
+		AC393B8125C6AEDA003DE7B2 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC393B8025C6AEDA003DE7B2 /* WeatherData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7228DC6273270A8027E3A7E5 /* Pods-Cloudelio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudelio.release.xcconfig"; path = "Target Support Files/Pods-Cloudelio/Pods-Cloudelio.release.xcconfig"; sourceTree = "<group>"; };
+		A17F894BF442AD1536974CCA /* Pods_Cloudelio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudelio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC393B5D25C69F2A003DE7B2 /* Cloudelio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudelio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC393B6025C69F2A003DE7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC393B6225C69F2A003DE7B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC393B6425C69F2A003DE7B2 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		AC393B6725C69F2A003DE7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC393B6925C69F2D003DE7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC393B6C25C69F2D003DE7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC393B6E25C69F2D003DE7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC393B7925C6A781003DE7B2 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		AC393B7D25C6AEA8003DE7B2 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		AC393B8025C6AEDA003DE7B2 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		ED65EDDC2C87200B753AA21E /* Pods-Cloudelio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudelio.debug.xcconfig"; path = "Target Support Files/Pods-Cloudelio/Pods-Cloudelio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC393B5A25C69F2A003DE7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BB0AEFF120EFE7E8605F4 /* Pods_Cloudelio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41159EA679B74CD6EF9D9BDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED65EDDC2C87200B753AA21E /* Pods-Cloudelio.debug.xcconfig */,
+				7228DC6273270A8027E3A7E5 /* Pods-Cloudelio.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		583A0CD12063F7002B4153BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17F894BF442AD1536974CCA /* Pods_Cloudelio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC393B5425C69F2A003DE7B2 = {
+			isa = PBXGroup;
+			children = (
+				AC393B5F25C69F2A003DE7B2 /* Cloudelio */,
+				AC393B5E25C69F2A003DE7B2 /* Products */,
+				41159EA679B74CD6EF9D9BDA /* Pods */,
+				583A0CD12063F7002B4153BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC393B5E25C69F2A003DE7B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC393B5D25C69F2A003DE7B2 /* Cloudelio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC393B5F25C69F2A003DE7B2 /* Cloudelio */ = {
+			isa = PBXGroup;
+			children = (
+				AC393B7825C6A4EA003DE7B2 /* Controller */,
+				AC393B7725C6A4E2003DE7B2 /* View */,
+				AC393B7625C6A4DC003DE7B2 /* Model */,
+				AC393B6025C69F2A003DE7B2 /* AppDelegate.swift */,
+				AC393B6225C69F2A003DE7B2 /* SceneDelegate.swift */,
+				AC393B6925C69F2D003DE7B2 /* Assets.xcassets */,
+				AC393B6B25C69F2D003DE7B2 /* LaunchScreen.storyboard */,
+				AC393B6E25C69F2D003DE7B2 /* Info.plist */,
+			);
+			path = Cloudelio;
+			sourceTree = "<group>";
+		};
+		AC393B7625C6A4DC003DE7B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC393B7D25C6AEA8003DE7B2 /* WeatherModel.swift */,
+				AC393B8025C6AEDA003DE7B2 /* WeatherData.swift */,
+				AC393B7925C6A781003DE7B2 /* WeatherManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC393B7725C6A4E2003DE7B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC393B6625C69F2A003DE7B2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC393B7825C6A4EA003DE7B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC393B6425C69F2A003DE7B2 /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC393B5C25C69F2A003DE7B2 /* Cloudelio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC393B7125C69F2D003DE7B2 /* Build configuration list for PBXNativeTarget "Cloudelio" */;
+			buildPhases = (
+				79D6E80F8027677724B7EC10 /* [CP] Check Pods Manifest.lock */,
+				AC393B5925C69F2A003DE7B2 /* Sources */,
+				AC393B5A25C69F2A003DE7B2 /* Frameworks */,
+				AC393B5B25C69F2A003DE7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cloudelio;
+			productName = Cloudelio;
+			productReference = AC393B5D25C69F2A003DE7B2 /* Cloudelio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC393B5525C69F2A003DE7B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AC393B5C25C69F2A003DE7B2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = AC393B5825C69F2A003DE7B2 /* Build configuration list for PBXProject "Cloudelio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC393B5425C69F2A003DE7B2;
+			productRefGroup = AC393B5E25C69F2A003DE7B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC393B5C25C69F2A003DE7B2 /* Cloudelio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC393B5B25C69F2A003DE7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC393B6D25C69F2D003DE7B2 /* LaunchScreen.storyboard in Resources */,
+				AC393B6A25C69F2D003DE7B2 /* Assets.xcassets in Resources */,
+				AC393B6825C69F2A003DE7B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79D6E80F8027677724B7EC10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloudelio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC393B5925C69F2A003DE7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC393B6525C69F2A003DE7B2 /* WeatherViewController.swift in Sources */,
+				AC393B6125C69F2A003DE7B2 /* AppDelegate.swift in Sources */,
+				AC393B7A25C6A781003DE7B2 /* WeatherManager.swift in Sources */,
+				AC393B6325C69F2A003DE7B2 /* SceneDelegate.swift in Sources */,
+				AC393B8125C6AEDA003DE7B2 /* WeatherData.swift in Sources */,
+				AC393B7E25C6AEA8003DE7B2 /* WeatherModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC393B6625C69F2A003DE7B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC393B6725C69F2A003DE7B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC393B6B25C69F2D003DE7B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC393B6C25C69F2D003DE7B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC393B6F25C69F2D003DE7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC393B7025C69F2D003DE7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC393B7225C69F2D003DE7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED65EDDC2C87200B753AA21E /* Pods-Cloudelio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cloudelio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammad-Yasir.Cloudelio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC393B7325C69F2D003DE7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7228DC6273270A8027E3A7E5 /* Pods-Cloudelio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cloudelio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mohammad-Yasir.Cloudelio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC393B5825C69F2A003DE7B2 /* Build configuration list for PBXProject "Cloudelio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC393B6F25C69F2D003DE7B2 /* Debug */,
+				AC393B7025C69F2D003DE7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC393B7125C69F2D003DE7B2 /* Build configuration list for PBXNativeTarget "Cloudelio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC393B7225C69F2D003DE7B2 /* Debug */,
+				AC393B7325C69F2D003DE7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC393B5525C69F2A003DE7B2 /* Project object */;
+}
